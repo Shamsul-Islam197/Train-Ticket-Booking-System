@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: 100% 1080px;
+}
+
+.container {
+  width: 100%;
+  height: 80px;
+  background: #fff;
+  text-align: left;
+  position: fixed;
+  z-index: 10;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin-top: 7px;
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+}
+.logo-text {
+  color: #000;
+  text-decoration: none;
+  font-size: 2rem;
+}
+ul {
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  color: #778ca3;
+  font-weight: bold;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+ul li a:hover {
+  color: #000;
+}
+ul li.active a {
+  color: #000;
+}
+
+
+.container2 {
+  align-self: center !important;
+  margin-left: 10%;
+  flex: 33%;
+  max-width: 33%;
+  top: 20%;
+  border-radius:25px;
+  position: absolute;
+  width: 500px;
+  height: 280px;
+  text-align: center;
+  background-color: rgba(44, 62, 80, 0.7);
+}
+
+input[type="text"],
+input[type="password"] {
+  border: 0;
+  background: #fff;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  font-size:15px;
+  border: 2px solid #3498db;
+  padding: 10px 8px;
+  width: 250px;
+  outline: none;
+  color: #000;
+  transition: 0.6s;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  width: 300px;
+  border-color: #2ecc71;
+}
+
+
+.btn-search {
+  border: 0;
+  background: rgba(44, 62, 80, 0.7);
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  font-size:15px;
+  border: 2px solid #2ecc71;
+  padding: 10px 40px;
+  outline: none;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.btn-search:hover {
+  background: #2ecc71;
+}
+
+.footer {
+  top: 100%;
+  position: absolute;
+  width: 100%;
+  height: 55px;
+  background: rgba(118, 145, 219, 0.7);
+}
+
+.header {
+  top: 10%;
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  background: rgba(118, 145, 219, 0.7);
+}
+
+
+.content-table {
+        border-collapse: collapse;
+        margin-left: 40%;
+        top: 20%;
+        position: absolute;
+        font-size: 0.9em;
+        min-width: 400px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .content-table thead tr {
+        background-color:  rgba(44, 62, 80, 0.7);
+        color: #ffffff;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .content-table th,
+    .content-table td {
+        padding: 12px 15px;
+    }
+
+    .label{
+        color: #fff;
+        font-size:50px;
+        font-weight: bold;
+        position: absolute;
+        left:45%;
+        margin-top: 5px;
+    }

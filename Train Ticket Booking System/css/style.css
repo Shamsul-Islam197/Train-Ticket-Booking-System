@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: 100% 1080px;
+}
+
+.container {
+  width: 100%;
+  height: 80px;
+  background: #fff;
+  text-align: left;
+  position: fixed;
+  z-index: 10;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin-top: 7px;
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+}
+.logo-text {
+  color: #000;
+  text-decoration: none;
+  font-size: 2rem;
+}
+ul {
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  color: #778ca3;
+  font-weight: bold;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+ul li a:hover {
+  color: #000;
+}
+ul li.active a {
+  color: #000;
+}
+
+
+.img {
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  transform: translateX(-50%, -50%);
+  overflow: hidden;
+}
+
+.title {
+  align-self: center !important;
+  margin-left: 15%;
+  flex: 33%;
+  max-width: 33%;
+  top: 25%;
+  position: absolute;
+  color: #fff !important;
+}
+
+.welcome {
+  font-size: 47px;
+  font-weight: 700 !important;
+}
+
+.railway {
+  margin-top: 15px;
+  font-size: 27px;
+  font-weight: 100 !important;
+  top: 30%;
+}
+
+.container2 {
+  align-self: center !important;
+  margin-left: 55%;
+  flex: 33%;
+  max-width: 33%;
+  top: 10%;
+  position: absolute;
+  width: 500px;
+  height: 580px;
+  text-align: center;
+  background-color: rgba(44, 62, 80, 0.7);
+}
+
+
+.select-box select {
+  background: #fff;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 16px;
+  border: 2px solid #3498db;
+  padding: 10px 8px;
+  width: 250px;
+  outline: none;
+  color: #000;
+}
+.select-box select:focus {
+  border: 2px solid #b2f7bb;
+}
+
+.input {
+  background: #fff;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 15px;
+  border: 2px solid #3498db;
+  padding: 10px 8px;
+  width: 250px;
+  outline: none;
+  color: #000;
+}
+.input:focus {
+  border: 2px solid #b2f7bb;
+}
+
+.label {
+  color: white;
+}
+
+.btn-search {
+  border: 0;
+  background: rgba(44, 62, 80, 0.7);
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 15px;
+  border: 2px solid #2ecc71;
+  padding: 10px 40px;
+  outline: none;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.btn-search:hover {
+  background: #2ecc71;
+}
+
+.info {
+  align-self: center !important;
+  margin-left: 20%;
+  margin-right: 20%;
+  top: 75%;
+  position: absolute;
+}
+.text {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 100px;
+  text-align: justify;
+}
+.text p {
+  font-size: 15px;
+  color: #6f7275;
+}
+h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  top: 100%;
+  position: absolute;
+  width: 100%;
+  height: 55px;
+  background: rgba(118, 145, 219, 0.7);
+}
